@@ -1,10 +1,19 @@
 <html>
+    <head>
+     
+        <link rel="stylesheet" href="main.css" />
+    </head>
     <body>
-       <h1>Twitter</h1> 
-       <textarea name='tweet' id='tweet'></textarea>
-       <input type='submit' value='tweet' id='tweetButton'>
-       <div id="contador">140</div>
-       <div id='printTweet'>
+       
+        <h1>Twitter</h1> 
+       
+        <textarea name='tweetText' id='tweetText' rows="5" cols="50"></textarea>
+       
+        <input type='submit' value='tweet' id='tweetButton' disabled>
+       
+        <div id='counter' class="blue">140</div>
+       
+        <div id='printTweet'>
        </div>
 
       
@@ -19,7 +28,7 @@
         
         
         
-        
+     <script type="text/javascript" src="moment.js"></script>
      <script type="text/javascript" src="twitter.js"></script>
     </body>
 </html>
