@@ -1,9 +1,104 @@
 .blue{
     color: blue;
 }
-.yellow{
-    color: yellow;
+.orange{
+    color: orange;
 }
 .red{
     color: red;
 }
+
+body{
+ margin: 0;
+ background-color: 		#cbe1ea;
+}
+.title{
+ display: flex;
+ background-color: 	#4f94cd;
+ font-size: 18px;
+ color: white;
+ font-family: 'Exo', sans-serif;
+}
+.title h1{
+    padding-left: 60px;
+}
+#fab{
+    color: white;
+}
+.allElements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+ display:flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+#tweetText{
+  font-family: 'Nunito Sans', sans-serif;
+  display:flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 530px;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+  align-items: center;
+  margin-top: 9%;
+  margin-left: 1%;
+}
+#counter{
+    font-size: 20px;
+}
+#tweetButton{
+ background-color: #4f94cd;
+ font-family:'Lato';
+ font-size: 22px;
+ color: white;
+ border:2px solid white;
+ border-radius: 30%;
+ padding: 4px 7px;
+ text-align: center;
+ width: 100px;
+}
+#printTweet{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 400px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 3%;
+  font-family: 'Nunito Sans', sans-serif;
+}
+#printTweet p{
+    word-wrap: break-word;
+}
+.user{
+    font-size: 16px;
+}
+.user h1{
+ font-family: 'Exo', sans-serif;
+ color: #4f94cd;
+ font-size: 18px;
+}
+#extras{
+    margin-top: 2%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Exo', sans-serif;
+}
+.fab{
+    color: white;
+    font-size: 28px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+

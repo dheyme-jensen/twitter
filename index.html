@@ -2,20 +2,29 @@
     <head>
      
         <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity=
+        "sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
     </head>
     <body>
        
-        <h1>Twitter</h1> 
+        <header class='title'>
+          <h1>Twitter</h1> 
+          <i class="fab fa-twitter"></i>
+        </header>
        
-        <textarea name='tweetText' id='tweetText' rows="5" cols="50"></textarea>
-       
-        <input type='submit' value='tweet' id='tweetButton' disabled>
-       
-        <div id='counter' class="blue">140</div>
-       
-        <div id='printTweet'>
-       </div>
-
+        <div clas="allElements">
+            <section class='box'>
+                <textarea name='tweetText' id='tweetText' rows="5" cols="50"></textarea>
+                <div id="extras">
+                 <input type='submit' value='tweet' id='tweetButton' disabled>
+                 <div id='counter' class="blue">140</div>
+               </div>
+             <div id='printTweet'>
+             </div>
+           </section>
+        </div>
       
         
         
