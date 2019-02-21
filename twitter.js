@@ -9,17 +9,18 @@ function listOfTweets() {
     let time = moment().format('LT');
     let block = `
         <div class='user'> 
-         <h1>@chandlerbing</h1>
+         <h1>@jensen</h1>
          <span>${time}</span>
          <p>${tweetText.value}</p>
         </div>
     `;
     printTweet.innerHTML += block
+    tweetText.value= '';
     let paragraph = document.createElement('p');
     let message = document.createTextNode(text);
     paragraph.appendChild(message);
     printTweet.appendChild(paragraph); 
-    tweetText.value= '';
+    
 }
 tweetText.addEventListener('keyup', disabledButton);
 function disabledButton() {
